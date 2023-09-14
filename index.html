@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive-dashboard-for-CRUDS-Operations</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="crud">
+
+
+        <div class="head">
+            <h2>CRUDS Operations</h2>
+            <p>Product management system</p>
+
+        </div>
+
+
+
+
+        <div class="input">
+            <input type="text" placeholder="title" id="title">
+            <div class="price">
+                <input type="number" placeholder="price" id="price">
+                <input type="number" placeholder="taxes" id="taxes">
+                <input type="number" placeholder="ads" id="ads">
+                <input type="number" placeholder="discount" id="discount">
+                <small id="total"></small>
+            </div>
+            <input type="number" placeholder="count" id="count">
+            <input type="text" placeholder="category" id="category">
+            <button id="submit">Create</button>
+        </div>
+
+
+
+        
+        <div class="output">
+            <div class="search-block">
+                <input type="text" id="search" placeholder="search">
+                <div class="btn-search">
+                    <button id="search-title">Search by Title</button>
+                    <button id="search-category">Search by CAtegory</button>
+                </div>
+            </div>
+
+
+
+
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>samsung</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>2500</td>
+                        <td>phone</td>
+                        <td><button id="update">update</button></td>
+                        <td><button id="delete">delete</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>1</td>
+                        <td>samsung</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>2500</td>
+                        <td>phone</td>
+                        <td><button id="update">update</button></td>
+                        <td><button id="delete">delete</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>1</td>
+                        <td>samsung</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>2500</td>
+                        <td>phone</td>
+                        <td><button id="update">update</button></td>
+                        <td><button id="delete">delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
